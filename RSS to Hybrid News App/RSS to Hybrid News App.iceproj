@@ -29,6 +29,7 @@
       <Publish>False</Publish>
     </Content>
     <Content Include="app\app.js" />
+    <Content Include="App_Resources\Android\fake.js" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
@@ -7661,6 +7662,7 @@
     <Folder Include="app\data\" />
     <Folder Include="app\services\" />
     <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
     <Folder Include="node_modules\" />
     <Folder Include="node_modules\angular2\" />
     <Folder Include="node_modules\angular2\animate\" />
