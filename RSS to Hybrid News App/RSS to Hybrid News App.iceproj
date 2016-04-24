@@ -25,7 +25,9 @@
     <Content Include=".debug.abproject" />
     <Content Include=".release.abproject" />
     <Content Include="app\components\articles-list\articles-list.component.js" />
-    <Content Include="app\components\articles-list\articles-list.template.html" />
+    <Content Include="app\components\articles-list\articles-list.template.html">
+      <Publish>False</Publish>
+    </Content>
     <Content Include="app\app.js" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
@@ -7656,7 +7658,8 @@
     <Folder Include="app\" />
     <Folder Include="app\components\" />
     <Folder Include="app\components\articles-list\" />
-    <Folder Include="App_Resources\" />
+    <Folder Include="app\data\" />
+    <Folder Include="app\services\" />
     <Folder Include="node_modules\" />
     <Folder Include="node_modules\angular2\" />
     <Folder Include="node_modules\angular2\animate\" />

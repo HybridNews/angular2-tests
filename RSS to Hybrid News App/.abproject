@@ -2,11 +2,11 @@
   "ProjectName": "RSS to Hybrid News App",
   "ProjectGuid": "804d52d8-5921-4b6a-9812-4303632380b0",
   "projectVersion": 1,
-  "AppIdentifier": "RSStoHybridNewsApp",
+  "AppIdentifier": "rss.hybrid.apps",
   "DisplayName": "RSS to Hybrid News App",
-  "Author": "",
+  "Author": "Dimitar Tachev",
   "Description": "RSS to Hybrid News App",
-  "BundleVersion": "1.0",
+  "BundleVersion": "0.0.1",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "5.0.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -40,5 +40,6 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
-  ]
+  ],
+  "CorePlugins": []
 }
