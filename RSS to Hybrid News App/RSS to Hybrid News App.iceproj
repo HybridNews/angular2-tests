@@ -24,9 +24,9 @@
     <Content Include=".abproject" />
     <Content Include=".debug.abproject" />
     <Content Include=".release.abproject" />
-    <Content Include="app\app.component.js" />
-    <Content Include="app\articles\article.component.js" />
-    <Content Include="app\main.js" />
+    <Content Include="app\components\articles-list\articles-list.component.js" />
+    <Content Include="app\components\articles-list\articles-list.template.html" />
+    <Content Include="app\app.js" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
@@ -7654,7 +7654,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
-    <Folder Include="app\articles\" />
+    <Folder Include="app\components\" />
+    <Folder Include="app\components\articles-list\" />
     <Folder Include="App_Resources\" />
     <Folder Include="node_modules\" />
     <Folder Include="node_modules\angular2\" />
