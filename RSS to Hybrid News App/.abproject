@@ -1,0 +1,45 @@
+{
+  "ProjectName": "RSS to Hybrid News App",
+  "ProjectGuid": "804d52d8-5921-4b6a-9812-4303632380b0",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.RSStoHybridNewsApp",
+  "DisplayName": "RSS to Hybrid News App",
+  "Author": "",
+  "Description": "RSS to Hybrid News App",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{942afb3a-6187-4693-9af0-74d9bfe42df0}",
+  "WP8ProductID": "{8dd58995-3538-4263-9e8c-b5777d5ad0b2}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.RSStoHybridNewsApp",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
