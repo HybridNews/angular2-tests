@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}") = "RSS to Hybrid News App", "RSS to Hybrid News App.iceproj", "{804D52D8-5921-4B6A-9812-4303632380B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804D52D8-5921-4B6A-9812-4303632380B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804D52D8-5921-4B6A-9812-4303632380B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804D52D8-5921-4B6A-9812-4303632380B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804D52D8-5921-4B6A-9812-4303632380B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
