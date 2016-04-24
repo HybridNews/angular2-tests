@@ -2,7 +2,7 @@
   "ProjectName": "RSS to Hybrid News App",
   "ProjectGuid": "804d52d8-5921-4b6a-9812-4303632380b0",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.RSStoHybridNewsApp",
+  "AppIdentifier": "RSStoHybridNewsApp",
   "DisplayName": "RSS to Hybrid News App",
   "Author": "",
   "Description": "RSS to Hybrid News App",
@@ -14,13 +14,12 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "4.0.0",
+  "FrameworkVersion": "5.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
   "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
+    "Portrait"
   ],
   "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
