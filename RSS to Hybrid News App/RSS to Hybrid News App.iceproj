@@ -4428,19 +4428,7 @@
     <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.js">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.js.gz">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.js.map.gz">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.min.js">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.min.js.gz">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="node_modules\ng2-bootstrap\bundles\ng2-bootstrap.min.js.map.gz">
       <SubType>Content</SubType>
     </Content>
     <Content Include="node_modules\ng2-bootstrap\CHANGELOG.md">

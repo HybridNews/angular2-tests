@@ -1,5 +1,4 @@
 */bin
 */obj
 *.user-settings.xml
-*node_modules/
 *.vs/
