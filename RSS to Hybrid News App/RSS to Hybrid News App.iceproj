@@ -7593,6 +7593,462 @@
     <Content Include="node_modules\rxjs\util\tryCatch.js.map">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="node_modules\systemjs\dist\system-csp-production.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-csp-production.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-csp-production.src.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-polyfills.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-polyfills.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-polyfills.src.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-register-only.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-register-only.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system-register-only.src.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\dist\system.src.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\config-api.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\creating-plugins.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\es6-modules-overview.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\module-formats.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\overview.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\production-workflows.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\docs\system-api.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\alias.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\amd-helpers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\amd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\bundles.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\cjs-helpers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\cjs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\conditionals.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\core.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\createSystem.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\depCache.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\esm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\global-eval.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\global-helpers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\global.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\meta.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\package.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\plugins.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\polyfills-bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\proto.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\register.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\scriptLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\scriptOnly.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\wrapper-end.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\lib\wrapper-start.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\callbacks.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\cancelable.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\CHANGES.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\delay.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.debug.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.debug.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\dist\browser\when.min.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\Promise.browserify-es6.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\Promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\Promise.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\Promise.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\Promise.min.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\es6-shim\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\function.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\generator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\guard.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\keys.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\apply.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\array.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\flow.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\fold.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\inspect.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\iterate.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\progress.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\timed.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\unhandledRejection.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\decorators\with.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\env.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\format.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\liftAll.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\makePromise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\Promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\Scheduler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\state.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\lib\TimeoutError.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\LICENSE.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor\console.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor\ConsoleReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor\error.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor\PromiseMonitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\monitor\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\node.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\node\function.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\parallel.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\pipeline.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\poll.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\sequence.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\timeout.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\unfold.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\unfold\list.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\node_modules\when\when.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\bootstrap%403.1.1\test.coffee">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\connected-tree\a.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\connected-tree\b.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\connected-tree\c.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\contextual-test\contextual-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\csp\integrity.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\csp\nonce.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\csp\nonce2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\cs\dep.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\cs\main.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\deep\deep-dep.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\deep\deep.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\duplicateDeps\m1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\duplicateDeps\m2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\ep\some-repo\main.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\map-test\sub.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\mypackage\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\mypackage\lib\bar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\mypackage\src\foo.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\no-default-ext\file.ext">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\index-cjs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\index-default-cjs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\index-default-esm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\index-esm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\local\index-cjs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\local\index-default-cjs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\local\index-default-esm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\package-local-alias\local\index-esm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\path\deep.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\plugin%401.2.3\plugin.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\shared-dep-bundles\a.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\shared-dep-bundles\b.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\shim-package\shim-map-test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\subcontextual-map\submodule.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg2\asdf.asdf.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\depcache-test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\dir2\index.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\dir\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\dir\self-load.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\env-module-browser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\env-module.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\interpolate.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\json.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\json.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\polate.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\self-load.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\self.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\testpkg\system.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\wildcard-test\2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\wildcard-test\2\sub.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\systemjs\test\tests\wildcard-test\first.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="node_modules\zone.js\dist\async-test.js">
       <SubType>Content</SubType>
     </Content>
@@ -8189,6 +8645,49 @@
     <Folder Include="node_modules\rxjs\symbol\" />
     <Folder Include="node_modules\rxjs\testing\" />
     <Folder Include="node_modules\rxjs\util\" />
+    <Folder Include="node_modules\systemjs\" />
+    <Folder Include="node_modules\systemjs\dist\" />
+    <Folder Include="node_modules\systemjs\docs\" />
+    <Folder Include="node_modules\systemjs\lib\" />
+    <Folder Include="node_modules\systemjs\node_modules\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\dist\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\dist\browser\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\es6-shim\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\lib\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\lib\decorators\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\monitor\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\node\" />
+    <Folder Include="node_modules\systemjs\node_modules\when\unfold\" />
+    <Folder Include="node_modules\systemjs\test\" />
+    <Folder Include="node_modules\systemjs\test\tests\" />
+    <Folder Include="node_modules\systemjs\test\tests\bootstrap%403.1.1\" />
+    <Folder Include="node_modules\systemjs\test\tests\connected-tree\" />
+    <Folder Include="node_modules\systemjs\test\tests\contextual-test\" />
+    <Folder Include="node_modules\systemjs\test\tests\csp\" />
+    <Folder Include="node_modules\systemjs\test\tests\cs\" />
+    <Folder Include="node_modules\systemjs\test\tests\deep\" />
+    <Folder Include="node_modules\systemjs\test\tests\duplicateDeps\" />
+    <Folder Include="node_modules\systemjs\test\tests\ep\" />
+    <Folder Include="node_modules\systemjs\test\tests\ep\some-repo\" />
+    <Folder Include="node_modules\systemjs\test\tests\map-test\" />
+    <Folder Include="node_modules\systemjs\test\tests\mypackage\" />
+    <Folder Include="node_modules\systemjs\test\tests\mypackage\lib\" />
+    <Folder Include="node_modules\systemjs\test\tests\mypackage\src\" />
+    <Folder Include="node_modules\systemjs\test\tests\no-default-ext\" />
+    <Folder Include="node_modules\systemjs\test\tests\package-local-alias\" />
+    <Folder Include="node_modules\systemjs\test\tests\package-local-alias\local\" />
+    <Folder Include="node_modules\systemjs\test\tests\path\" />
+    <Folder Include="node_modules\systemjs\test\tests\plugin%401.2.3\" />
+    <Folder Include="node_modules\systemjs\test\tests\shared-dep-bundles\" />
+    <Folder Include="node_modules\systemjs\test\tests\shim-package\" />
+    <Folder Include="node_modules\systemjs\test\tests\subcontextual-map\" />
+    <Folder Include="node_modules\systemjs\test\tests\testpkg2\" />
+    <Folder Include="node_modules\systemjs\test\tests\testpkg\" />
+    <Folder Include="node_modules\systemjs\test\tests\testpkg\dir2\" />
+    <Folder Include="node_modules\systemjs\test\tests\testpkg\dir\" />
+    <Folder Include="node_modules\systemjs\test\tests\wildcard-test\" />
+    <Folder Include="node_modules\systemjs\test\tests\wildcard-test\2\" />
     <Folder Include="node_modules\zone.js\" />
     <Folder Include="node_modules\zone.js\dist\" />
     <Folder Include="node_modules\zone.js\lib\" />
@@ -9316,6 +9815,7 @@
     <TypeScriptCompile Include="node_modules\rxjs\util\throwError.d.ts" />
     <TypeScriptCompile Include="node_modules\rxjs\util\toSubscriber.d.ts" />
     <TypeScriptCompile Include="node_modules\rxjs\util\tryCatch.d.ts" />
+    <TypeScriptCompile Include="node_modules\systemjs\test\tests\testpkg\test.ts" />
     <TypeScriptCompile Include="node_modules\zone.js\dist\zone.js.d.ts" />
     <TypeScriptCompile Include="node_modules\zone.js\lib\browser\browser.ts" />
     <TypeScriptCompile Include="node_modules\zone.js\lib\browser\define-property.ts" />
