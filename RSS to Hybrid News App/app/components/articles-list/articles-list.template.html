@@ -1,14 +1,11 @@
 <!--TODO: take a look at trackBy for performance-->
-<!--<carousel [interval]="myInterval" [noWrap]="noWrapSlides">
-    <slide *ngFor="#slidez of slides; #index=index"
-           [active]="slidez.active">
-        <img [src]="slidez.image" style="margin:auto;">
+<carousel [interval]="myInterval" [noWrap]="noWrapSlides">
+	<slide *ngFor="#slide of slides; #index=index" [active]="slide.Active">
+		<img [src]="baseUrl + slide.image" style="margin:auto;">
 
-        <div class="carousel-caption">
-            <h4>Slide {{index}}</h4>
-
-            <p>{{slidez.text}}</p>
-        </div>
-    </slide>
-</carousel>-->
+		<div class="carousel-caption">
+			<p>{{slide.title}}</p>
+		</div>
+	</slide>
+</carousel>
 <div *ngFor="#article of articles">{{article.title}}</div>
