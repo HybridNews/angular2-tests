@@ -5,12 +5,12 @@
           templateUrl: 'app/components/articles-list/articles-list.template.html'
       })
       .Class({
-          constructor: [app.articlesService, function ArticlesListComponent(articlesService) {
+          constructor: [app.articlesService, app.xmlToJsonService, function ArticlesListComponent(articlesService, xmlToJsonService) {
               var that = this;
               articlesService.getArticles()
                   .map(
                       function (response) {
-                          return xml2json(response.text(), "").channel.item;
+                          return xmlToJsonService.getJson(response.text()).channel.item;
                       })
                   .subscribe(
                       function (result) {

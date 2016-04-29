@@ -1,7 +1,7 @@
 (function (app) {
     app.HybridNewsComponent = ng.core.Component({
         selector: 'hybrid-news',
-        providers: [ng.http.HTTP_PROVIDERS, app.articlesService],
+        providers: [ng.http.HTTP_PROVIDERS, app.articlesService, app.xmlToJsonService],
         directives: [app.ArticlesListComponent],
         template: '<articles-list></articles-list>'
     })

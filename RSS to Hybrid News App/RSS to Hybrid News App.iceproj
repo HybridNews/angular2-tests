@@ -30,6 +30,7 @@
     </Content>
     <Content Include="app\app.js" />
     <Content Include="app\services\articlesService.js" />
+    <Content Include="app\services\xmlToJsonService.js" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
