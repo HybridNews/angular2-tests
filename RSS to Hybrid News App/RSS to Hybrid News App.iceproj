@@ -29,10 +29,12 @@
       <Publish>False</Publish>
     </Content>
     <Content Include="app\app.js" />
+    <Content Include="app\services\articlesService.js" />
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
     <Content Include="index.html" />
+    <Content Include="libs\xml2json.js" />
     <Content Include="node_modules\angular2\animate.js">
       <SubType>Content</SubType>
     </Content>
@@ -8154,7 +8156,6 @@
     <Folder Include="app\" />
     <Folder Include="app\components\" />
     <Folder Include="app\components\articles-list\" />
-    <Folder Include="app\data\" />
     <Folder Include="app\services\" />
     <Folder Include="App_Resources\" />
     <Folder Include="App_Resources\Android\" />
@@ -8167,6 +8168,7 @@
     <Folder Include="App_Resources\WP8\Assets\" />
     <Folder Include="App_Resources\WP8\Tiles\" />
     <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="libs\" />
     <Folder Include="node_modules\" />
     <Folder Include="node_modules\angular2\" />
     <Folder Include="node_modules\angular2\animate\" />

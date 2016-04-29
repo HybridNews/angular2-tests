@@ -1,9 +1,10 @@
 (function (app) {
     app.HybridNewsComponent = ng.core.Component({
-         selector: 'hybrid-news',
-         directives: [app.AppComponent],
-         template: '<articles-list></articles-list>'
-     })
+        selector: 'hybrid-news',
+        providers: [ng.http.HTTP_PROVIDERS, app.articlesService],
+        directives: [app.ArticlesListComponent],
+        template: '<articles-list></articles-list>'
+    })
      .Class({
          constructor: function () { }
      });
