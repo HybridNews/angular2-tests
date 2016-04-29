@@ -1,6 +1,8 @@
+import {Component} from 'angular2/core';
+
 (function (app) {
     app.ArticlesListComponent =
-      ng.core.Component({
+      Component({
           selector: 'articles-list',
           templateUrl: 'app/components/articles-list/articles-list.template.html'
       })
@@ -8,12 +10,9 @@
           constructor: [app.articlesService, app.xmlToJsonService, function ArticlesListComponent(articlesService, xmlToJsonService) {
               var that = this;
               articlesService.getArticles()
-                  .map(
-                      function (response) {
-                          return xmlToJsonService.getJson(response.text()).channel.item;
-                      })
                   .subscribe(
-                      function (result) {
+                      function (response) {
+                          var result = xmlToJsonService.getJson(response.text()).channel.item;
                           that.articles = result;
                       });
               this.articles = [

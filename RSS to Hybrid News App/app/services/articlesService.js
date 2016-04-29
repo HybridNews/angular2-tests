@@ -1,6 +1,9 @@
+import {Class} from 'angular2/core';
+import {Http} from 'angular2/http';
+
 (function (app) {
-    app.articlesService = ng.core.Class({
-        constructor: [ng.http.Http, function articlesService(http) {
+    app.articlesService = Class({
+        constructor: [Http, function articlesService(http) {
             this.http = http;
         }],
         getArticles: function getArticles() {

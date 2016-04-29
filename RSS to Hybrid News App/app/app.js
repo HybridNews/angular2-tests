@@ -1,7 +1,11 @@
+import {Component} from 'angular2/core';
+import {bootstrap}    from 'angular2/platform/browser';
+import {HTTP_PROVIDERS} from 'angular2/http';
+
 (function (app) {
-    app.HybridNewsComponent = ng.core.Component({
+    app.HybridNewsComponent = Component({
         selector: 'hybrid-news',
-        providers: [ng.http.HTTP_PROVIDERS, app.articlesService, app.xmlToJsonService],
+        providers: [HTTP_PROVIDERS, app.articlesService, app.xmlToJsonService],
         directives: [app.ArticlesListComponent],
         template: '<articles-list></articles-list>'
     })
@@ -9,7 +13,5 @@
          constructor: function () { }
      });
 
-    document.addEventListener('DOMContentLoaded', function () {
-        ng.platform.browser.bootstrap(app.HybridNewsComponent);
-    });
+    bootstrap(app.HybridNewsComponent);
 })(window.app || (window.app = {}));

@@ -35,7 +35,6 @@
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
     <Content Include="index.html" />
-    <Content Include="libs\xml2json.js" />
     <Content Include="node_modules\angular2\animate.js">
       <SubType>Content</SubType>
     </Content>
@@ -8052,6 +8051,2856 @@
     <Content Include="node_modules\systemjs\test\tests\wildcard-test\first.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="node_modules\traceur\bin\BrowserSystem.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\bin\traceur-runtime.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\bin\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\bin\traceur.js.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\browser\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\AlphaRenamer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\alphaRenameThisAndArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\AmdTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\AnnotationsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ArrayComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ArrowFunctionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\assignmentOperatorToBinaryOperator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\AsyncGeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\AsyncGeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\BlockBindingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ClassTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\CloneTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ClosureModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\CommonJsModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\DefaultParametersTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\DestructuringTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ExplodeExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ExponentiationTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FindIdentifiers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FindInFunctionScope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FindThisOrArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FindVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FnExtractAbruptCompletions.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ForOfTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\FromOptionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\GeneratorComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\GeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\AsyncTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\AwaitState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\BreakContinueTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\BreakState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\CatchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\ConditionalState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\ContinueState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\CPSTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\EndState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\FallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\FinallyFallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\FinallyState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\ForInTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\GeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\ReturnState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\State.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\StateAllocator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\SwitchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\TryState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\generator\YieldState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\globalThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\HoistVariablesTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ImportSimplifyingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\InlineES6ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\InlineModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\InnerForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\InstantiateModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\JsxTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\MakeStrictTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\MemberVariableConstructorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\MemberVariableTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\AttachModuleNameTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\createModuleEvaluationStatement.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\DirectExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ExportListBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ModuleSpecifierVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ModuleSymbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ModuleVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\module\ValidationVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\MultiTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\NumericLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ObjectLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ParenTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ParseTreeFactory.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ParseTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\PlaceholderParser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\PrependStatements.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ProperTailCallTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\PropertyNameShorthandTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\PureES6Transformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\RegularExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\RestParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\RewriteTailCallsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\RewriteTailExpressionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\scopeContainsThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\ScopeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\SkipFunctionsTransformerTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\SpreadTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\SuperTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\SymbolTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\TemplateLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\TempVarTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\TypeToExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\TypeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\UnicodeEscapeSequenceTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\codegeneration\UniqueIdentifierGenerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\browser\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AlphaRenamer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\alphaRenameThisAndArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AmdTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AnnotationsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ArrayComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ArrowFunctionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\assignmentOperatorToBinaryOperator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AsyncGeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AsyncGeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\AsyncToGeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\BlockBindingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ClassTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\CloneTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ClosureModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\CommonJsModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\DefaultParametersTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\DestructuringTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ExplodeExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ExponentiationTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FindArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FindIdentifiers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FindInFunctionScope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FindThisOrArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FindVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FnExtractAbruptCompletions.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ForOfTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\FromOptionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\GeneratorComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\GeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\AsyncTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\AwaitState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\BreakContinueTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\BreakState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\CatchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\ConditionalState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\ContinueState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\CPSTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\EndState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\FallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\FinallyFallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\FinallyState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\ForInTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\GeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\ReturnState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\State.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\StateAllocator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\SwitchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\TryState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\generator\YieldState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\globalThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\HoistVariablesTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ImportSimplifyingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\InlineES6ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\InlineModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\InnerForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\InstantiateModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\JsxTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\MakeStrictTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\MemberVariableConstructorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\MemberVariableTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\AttachModuleNameTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\createModuleEvaluationStatement.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\DirectExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ExportListBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ModuleSpecifierVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ModuleSymbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ModuleVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\module\ValidationVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\MultiTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\NumericLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ObjectLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ParenTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ParseTreeFactory.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ParseTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\PlaceholderParser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\PrependStatements.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ProperTailCallTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\PropertyNameShorthandTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\PureES6Transformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\RegularExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\RestParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\RewriteTailCallsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\RewriteTailExpressionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\scopeContainsThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\ScopeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\SkipFunctionsTransformerTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\SpreadPropertiesTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\SpreadTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\SuperTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\SymbolTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\TemplateLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\TempVarTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\TypeToExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\TypeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\UnicodeEscapeSequenceTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\codegeneration\UniqueIdentifierGenerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\compiler-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\Compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\HTMLImportTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\InlineLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\InternalLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\loader-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\Loader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\LoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\ModuleStore.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\ModuleStoreImpl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\NodeTraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\system-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\TraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\version.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\loader\webLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\api.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\command.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\compileAllJsFilesInDir.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\deferred.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\file-util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\get-dependencies.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\interpreter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\NodeCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\nodeLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\NodeLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\recursiveModuleCompile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\require.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\to-amd-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\to-closure-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\to-commonjs-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\node\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\Options.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\ParseTreeMapWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\ParseTreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\regexpuRewritePattern.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\SourceMapIntegration.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\toSource.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\outputgeneration\TreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\async.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\checkObjectCoercible.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\classes.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\destructuring.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\exportStar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\frozen-data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\generators.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\global-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\has-native-symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\jsx.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\async.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\asyncWrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\call.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\construct.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\continuation.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\createAsyncGeneratorInstance.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\createClass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\createDecoratedGenerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\createGeneratorInstance.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\createPrivateName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\exportStar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\generators.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\getTemplateObject.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\initAsyncGeneratorFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\initGeneratorFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\initTailRecursiveFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\iteratorToArray.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\observeForEach.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\properTailCalls.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\schedule.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\spawn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\spread.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\spreadProperties.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\superConstructor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\superDescriptor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\superGet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\superSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\modules\typeof.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\new-unique-string.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Array.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\ArrayIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\assign.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\fround.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Math.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Number.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Object.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\polyfills.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\Set.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\String.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\StringIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\utils.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\WeakMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\polyfills\WeakSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\private-symbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\private-weak-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\private.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\properTailCalls.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\relativeRequire.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\runtime-modules.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\runtime.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\spawn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\spread.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\template.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\runtime\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\bindingsInDestructuringPattern.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ConstChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ConstructorValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\FreeVariableChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\isTreeStrict.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\Scope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ScopeChainBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ScopeChainBuilderWithReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ScopeReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\ScopeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\semantics\VariableBinder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\staticsemantics\isValidSimpleAssignmentTarget.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\staticsemantics\PropName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\staticsemantics\validateParameters.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\IdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\JsxIdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\Keywords.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\KeywordToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\LineNumberTable.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\LiteralToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\Parser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\ParseTreeValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\ParseTreeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\PredefinedName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\Scanner.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\SourceFile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\Token.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\TokenType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\trees\ParseTree.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\trees\ParseTrees.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\trees\ParseTreeType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\trees\StateMachine.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\syntax\unicode-tables.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\traceur-import.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\assert.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\CollectingErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\ErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\JSON.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\MutedErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\SourcePosition.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\SourceRange.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\StringMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\StringSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\SyntaxErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\util\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\commonjs\WebPageTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\compiler-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\Compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\HTMLImportTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\InlineLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\InternalLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\loader-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\Loader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\LoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\ModuleStore.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\ModuleStoreImpl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\NodeTraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\system-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\TraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\version.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\loader\webLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\api.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\command.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\compileAllJsFilesInDir.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\deferred.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\file-util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\get-dependencies.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\interpreter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\NodeCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\nodeLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\NodeLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\recursiveModuleCompile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\require.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\to-amd-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\to-closure-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\to-commonjs-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\node\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\Options.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\ParseTreeMapWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\ParseTreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\regexpuRewritePattern.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\SourceMapIntegration.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\toSource.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\outputgeneration\TreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\async.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\checkObjectCoercible.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\classes.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\destructuring.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\exportStar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\frozen-data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\generators.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\global-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\has-native-symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\new-unique-string.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Array.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\ArrayIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\fround.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Math.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Number.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Object.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\polyfills.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\Set.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\String.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\StringIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\utils.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\WeakMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\polyfills\WeakSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\private-symbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\private-weak-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\private.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\properTailCalls.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\relativeRequire.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\runtime-modules.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\runtime.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\spread.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\template.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\runtime\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ConstChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ConstructorValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\FreeVariableChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\isTreeStrict.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\Scope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ScopeChainBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ScopeChainBuilderWithReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ScopeReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\ScopeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\semantics\VariableBinder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\staticsemantics\isValidSimpleAssignmentTarget.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\staticsemantics\PropName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\staticsemantics\validateParameters.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\IdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\JsxIdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\Keywords.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\KeywordToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\LineNumberTable.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\LiteralToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\Parser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\ParseTreeValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\ParseTreeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\PredefinedName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\Scanner.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\SourceFile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\Token.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\TokenType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\trees\ParseTree.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\trees\ParseTrees.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\trees\ParseTreeType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\trees\StateMachine.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\syntax\unicode-tables.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\traceur-import.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\assert.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\CollectingErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\ErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\JSON.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\MutedErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\SourcePosition.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\SourceRange.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\StringMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\StringSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\SyntaxErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\util\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\dist\WebPageTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\.bin\semver">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\.bin\semver.cmd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\History.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\commander\Readme.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\common.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\glob.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\.eslintrc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\inflight.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\test\basic.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\wrappy.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inflight\test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\inherits.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\inherits_browser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\inherits\test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\minimatch.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\example.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\example.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\LICENSE.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\Makefile">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\test\balanced.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\example\map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\README.markdown">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\test\map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\test\basic.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\wrappy.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\once.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\once\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\path-is-absolute\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\path-is-absolute\license">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\path-is-absolute\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\node_modules\path-is-absolute\readme.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\glob\sync.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\CHANGELOG.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\dist\rsvp.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\dist\rsvp.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp.umd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\-internal.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\all-settled.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\all.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\asap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\defer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\enumerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\events.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\filter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\hash-settled.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\hash.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\instrument.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\node.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\platform.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise-hash.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise\all.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise\race.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise\reject.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise\resolve.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\race.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\reject.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\resolve.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\rethrow.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\then.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\utils.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\rsvp\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\bin\semver">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\foot.js.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\head.js.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\Makefile">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\semver.browser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\semver.browser.js.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\semver.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\semver.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\semver.min.js.gz">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\amd.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\big-numbers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\clean.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\gtr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\ltr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\major-minor-patch.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\semver\test\no-module.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\browser-source-map-support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\require.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\script.coffee">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\script.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\amd-test\script.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\browser-source-map-support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\browser-test\index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\browser-test\script.coffee">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\browser-test\script.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\browser-test\script.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\build.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\header-test\index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\header-test\script.coffee">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\header-test\script.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\header-test\script.map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\header-test\server.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\LICENSE.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\.npmignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\assert-shim.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\mini-require.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\prefix-source-map.jsm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\prefix-utils.jsm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\suffix-browser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\suffix-source-map.jsm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\suffix-utils.jsm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\test-prefix.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\test-suffix.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\CHANGELOG.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\array-set.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\base64-vlq.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\base64.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\binary-search.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\source-map-consumer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\source-map-generator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\source-node.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\Makefile.dryice.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\amdefine.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\intercept.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\LICENSE">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\run-tests.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-api.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-array-set.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-base64-vlq.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-base64.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-binary-search.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-dog-fooding.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-source-map-consumer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-source-map-generator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\test-source-node.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\source-map-support.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\node_modules\source-map-support\test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\browser\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AlphaRenamer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\alphaRenameThisAndArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AmdTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AnnotationsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ArrayComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ArrowFunctionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\assignmentOperatorToBinaryOperator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AsyncGeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AsyncGeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\AsyncToGeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\BlockBindingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ClassTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\CloneTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ClosureModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\CommonJsModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\DefaultParametersTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\DestructuringTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ExplodeExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ExponentiationTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FindArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FindIdentifiers.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FindInFunctionScope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FindThisOrArguments.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FindVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FnExtractAbruptCompletions.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ForOfTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\FromOptionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\GeneratorComprehensionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\GeneratorTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\AsyncTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\AwaitState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\BreakContinueTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\BreakState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\CatchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\ConditionalState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\ContinueState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\CPSTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\EndState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\FallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\FinallyFallThroughState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\FinallyState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\ForInTransformPass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\GeneratorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\ReturnState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\State.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\StateAllocator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\SwitchState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\TryState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\generator\YieldState.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\globalThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\HoistVariablesTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ImportSimplifyingTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\InlineES6ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\InlineModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\InnerForOnTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\InstantiateModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\JsxTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\MakeStrictTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\MemberVariableConstructorTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\MemberVariableTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ModuleTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\AttachModuleNameTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\createModuleEvaluationStatement.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\DirectExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ExportListBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ExportVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ModuleSpecifierVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ModuleSymbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ModuleVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\module\ValidationVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\MultiTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\NumericLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ObjectLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ParenTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ParseTreeFactory.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ParseTreeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\PlaceholderParser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\PrependStatements.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ProperTailCallTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\PropertyNameShorthandTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\PureES6Transformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\RegularExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\RestParameterTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\RewriteTailCallsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\RewriteTailExpressionsTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\scopeContainsThis.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\ScopeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\SkipFunctionsTransformerTrait.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\SpreadPropertiesTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\SpreadTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\SuperTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\SymbolTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\TemplateLiteralTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\TempVarTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\TypeToExpressionTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\TypeTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\UnicodeEscapeSequenceTransformer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\codegeneration\UniqueIdentifierGenerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\compiler-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\Compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\HTMLImportTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\InlineLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\InternalLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\loader-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\Loader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\LoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\ModuleStore.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\ModuleStoreImpl.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\NodeTraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\system-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\TraceurLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\version.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\loader\webLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\api.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\command.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\compileAllJsFilesInDir.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\deferred.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\file-util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\get-dependencies.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\interpreter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\NodeCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\nodeLoader.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\NodeLoaderCompiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\recursiveModuleCompile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\require.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\System.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\to-amd-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\to-closure-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\to-commonjs-compiler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\node\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\Options.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\ParseTreeMapWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\ParseTreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\regexpuRewritePattern.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\regexpuRewritePattern.js-template">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\SourceMapIntegration.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\SourceMapIntegration.js-template">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\toSource.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\outputgeneration\TreeWriter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\async.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\checkObjectCoercible.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\classes.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\destructuring.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\exportStar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\frozen-data.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\generators.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\global-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\has-native-symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\jsx.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\async.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\asyncWrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\call.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\construct.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\continuation.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\createAsyncGeneratorInstance.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\createClass.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\createDecoratedGenerator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\createGeneratorInstance.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\createPrivateName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\exportStar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\generators.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\getTemplateObject.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\initAsyncGeneratorFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\initGeneratorFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\initTailRecursiveFunction.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\iteratorToArray.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\observeForEach.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\properTailCalls.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\schedule.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\spawn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\spread.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\spreadProperties.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\superConstructor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\superDescriptor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\superGet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\superSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\modules\typeof.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\new-unique-string.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Array.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\ArrayIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\assign.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\fround.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Math.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Number.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Object.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\polyfills.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Promise.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\Set.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\String.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\StringIterator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\utils.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\WeakMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\polyfills\WeakSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\private-symbol.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\private-weak-map.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\private.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\properTailCalls.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\relativeRequire.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\runtime-modules.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\runtime.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\spawn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\spread.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\symbols.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\template.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\runtime\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\bindingsInDestructuringPattern.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ConstChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ConstructorValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\FreeVariableChecker.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\isTreeStrict.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\Scope.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ScopeChainBuilder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ScopeChainBuilderWithReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ScopeReferences.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\ScopeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\util.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\semantics\VariableBinder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\staticsemantics\isValidSimpleAssignmentTarget.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\staticsemantics\PropName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\staticsemantics\validateParameters.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\IdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\JsxIdentifierToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\Keywords.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\KeywordToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\LineNumberTable.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\LiteralToken.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\Parser.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\ParseTreeValidator.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\ParseTreeVisitor.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\PredefinedName.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\Scanner.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\SourceFile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\Token.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\TokenType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\trees\ParseTree.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\trees\ParseTrees.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\trees\ParseTreeType.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\trees\StateMachine.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\trees\trees.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\syntax\unicode-tables.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\traceur-import.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\traceur.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util-imports.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\assert.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\CollectingErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\ErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\JSON.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\MutedErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\SourcePosition.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\SourceRange.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\StringMap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\StringSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\SyntaxErrorReporter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\util\url.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\src\WebPageTranscoder.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="node_modules\traceur\traceur">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="node_modules\zone.js\dist\async-test.js">
       <SubType>Content</SubType>
     </Content>
@@ -8691,6 +11540,102 @@
     <Folder Include="node_modules\systemjs\test\tests\testpkg\dir\" />
     <Folder Include="node_modules\systemjs\test\tests\wildcard-test\" />
     <Folder Include="node_modules\systemjs\test\tests\wildcard-test\2\" />
+    <Folder Include="node_modules\traceur\" />
+    <Folder Include="node_modules\traceur\bin\" />
+    <Folder Include="node_modules\traceur\dist\" />
+    <Folder Include="node_modules\traceur\dist\browser\" />
+    <Folder Include="node_modules\traceur\dist\codegeneration\" />
+    <Folder Include="node_modules\traceur\dist\codegeneration\generator\" />
+    <Folder Include="node_modules\traceur\dist\codegeneration\module\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\browser\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\codegeneration\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\codegeneration\generator\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\codegeneration\module\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\loader\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\node\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\outputgeneration\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\runtime\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\runtime\modules\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\runtime\polyfills\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\semantics\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\staticsemantics\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\syntax\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\syntax\trees\" />
+    <Folder Include="node_modules\traceur\dist\commonjs\util\" />
+    <Folder Include="node_modules\traceur\dist\loader\" />
+    <Folder Include="node_modules\traceur\dist\node\" />
+    <Folder Include="node_modules\traceur\dist\outputgeneration\" />
+    <Folder Include="node_modules\traceur\dist\runtime\" />
+    <Folder Include="node_modules\traceur\dist\runtime\polyfills\" />
+    <Folder Include="node_modules\traceur\dist\semantics\" />
+    <Folder Include="node_modules\traceur\dist\staticsemantics\" />
+    <Folder Include="node_modules\traceur\dist\syntax\" />
+    <Folder Include="node_modules\traceur\dist\syntax\trees\" />
+    <Folder Include="node_modules\traceur\dist\util\" />
+    <Folder Include="node_modules\traceur\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\.bin\" />
+    <Folder Include="node_modules\traceur\node_modules\commander\" />
+    <Folder Include="node_modules\traceur\node_modules\commander\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\commander\node_modules\graceful-readlink\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\inflight\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\inflight\node_modules\wrappy\test\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\inherits\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\test\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\example\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\test\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\once\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\once\node_modules\wrappy\test\" />
+    <Folder Include="node_modules\traceur\node_modules\glob\node_modules\path-is-absolute\" />
+    <Folder Include="node_modules\traceur\node_modules\rsvp\" />
+    <Folder Include="node_modules\traceur\node_modules\rsvp\dist\" />
+    <Folder Include="node_modules\traceur\node_modules\rsvp\lib\" />
+    <Folder Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\" />
+    <Folder Include="node_modules\traceur\node_modules\rsvp\lib\rsvp\promise\" />
+    <Folder Include="node_modules\traceur\node_modules\semver\" />
+    <Folder Include="node_modules\traceur\node_modules\semver\bin\" />
+    <Folder Include="node_modules\traceur\node_modules\semver\test\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\amd-test\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\browser-test\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\header-test\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\build\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\lib\source-map\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\node_modules\amdefine\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\" />
+    <Folder Include="node_modules\traceur\node_modules\source-map-support\node_modules\source-map\test\source-map\" />
+    <Folder Include="node_modules\traceur\src\" />
+    <Folder Include="node_modules\traceur\src\browser\" />
+    <Folder Include="node_modules\traceur\src\codegeneration\" />
+    <Folder Include="node_modules\traceur\src\codegeneration\generator\" />
+    <Folder Include="node_modules\traceur\src\codegeneration\module\" />
+    <Folder Include="node_modules\traceur\src\loader\" />
+    <Folder Include="node_modules\traceur\src\node\" />
+    <Folder Include="node_modules\traceur\src\outputgeneration\" />
+    <Folder Include="node_modules\traceur\src\runtime\" />
+    <Folder Include="node_modules\traceur\src\runtime\modules\" />
+    <Folder Include="node_modules\traceur\src\runtime\polyfills\" />
+    <Folder Include="node_modules\traceur\src\semantics\" />
+    <Folder Include="node_modules\traceur\src\staticsemantics\" />
+    <Folder Include="node_modules\traceur\src\syntax\" />
+    <Folder Include="node_modules\traceur\src\syntax\trees\" />
+    <Folder Include="node_modules\traceur\src\util\" />
     <Folder Include="node_modules\zone.js\" />
     <Folder Include="node_modules\zone.js\dist\" />
     <Folder Include="node_modules\zone.js\lib\" />

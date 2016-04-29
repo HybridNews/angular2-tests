@@ -1,6 +1,8 @@
+import {Class} from 'angular2/core';
+
 (function (app) {
     // http://stackoverflow.com/questions/1199180/read-xml-file-using-javascript
-    app.xmlToJsonService = ng.core.Class({
+    app.xmlToJsonService = Class({
         constructor: function xmlToJsonService() {
         },
         getJson: function (xml, includeRoot) {
