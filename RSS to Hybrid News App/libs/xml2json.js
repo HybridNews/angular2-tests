@@ -1,155 +1,62 @@
-/*	This work is licensed under Creative Commons GNU LGPL License.
+// http://stackoverflow.com/questions/1199180/read-xml-file-using-javascript
 
-	License: http://creativecommons.org/licenses/LGPL/2.1/
-   Version: 0.9
-	Author:  Stefan Goessner/2006
-	Web:     http://goessner.net/ 
-*/
-function xml2json(xml, tab) {
-    var X = {
-        toObj: function (xml) {
-            var o = {};
-            if (xml.nodeType == 1) {   // element node ..
-                if (xml.attributes.length)   // element with attributes  ..
-                    for (var i = 0; i < xml.attributes.length; i++)
-                        o["@" + xml.attributes[i].nodeName] = (xml.attributes[i].nodeValue || "").toString();
-                if (xml.firstChild) { // element has child nodes ..
-                    var textChild = 0, cdataChild = 0, hasElementChild = false;
-                    for (var n = xml.firstChild; n; n = n.nextSibling) {
-                        if (n.nodeType == 1) hasElementChild = true;
-                        else if (n.nodeType == 3 && n.nodeValue.match(/[^ \f\n\r\t\v]/)) textChild++; // non-whitespace text
-                        else if (n.nodeType == 4) cdataChild++; // cdata section node
-                    }
-                    if (hasElementChild) {
-                        if (textChild < 2 && cdataChild < 2) { // structured element with evtl. a single text or/and cdata node ..
-                            X.removeWhite(xml);
-                            for (var n = xml.firstChild; n; n = n.nextSibling) {
-                                if (n.nodeType == 3)  // text node
-                                    o["#text"] = X.escape(n.nodeValue);
-                                else if (n.nodeType == 4)  // cdata node
-                                    o["#cdata"] = X.escape(n.nodeValue);
-                                else if (o[n.nodeName]) {  // multiple occurence of element ..
-                                    if (o[n.nodeName] instanceof Array)
-                                        o[n.nodeName][o[n.nodeName].length] = X.toObj(n);
-                                    else
-                                        o[n.nodeName] = [o[n.nodeName], X.toObj(n)];
-                                }
-                                else  // first occurence of element..
-                                    o[n.nodeName] = X.toObj(n);
-                            }
-                        }
-                        else { // mixed content
-                            if (!xml.attributes.length)
-                                o = X.escape(X.innerXml(xml));
-                            else
-                                o["#text"] = X.escape(X.innerXml(xml));
-                        }
-                    }
-                    else if (textChild) { // pure text
-                        if (!xml.attributes.length)
-                            o = X.escape(X.innerXml(xml));
-                        else
-                            o["#text"] = X.escape(X.innerXml(xml));
-                    }
-                    else if (cdataChild) { // cdata
-                        if (cdataChild > 1)
-                            o = X.escape(X.innerXml(xml));
-                        else
-                            for (var n = xml.firstChild; n; n = n.nextSibling)
-                                o["#cdata"] = X.escape(n.nodeValue);
-                    }
-                }
-                if (!xml.attributes.length && !xml.firstChild) o = null;
-            }
-            else if (xml.nodeType == 9) { // document.node
-                o = X.toObj(xml.documentElement);
+/**
+ * Tries to convert a given XML data to a native JavaScript object by traversing the DOM tree.
+ * If a string is given, it first tries to create an XMLDomElement from the given string.
+ * 
+ * @param {XMLDomElement|String} source The XML string or the XMLDomElement prefreably which containts the necessary data for the object.
+ * @param {Boolean} [includeRoot] Whether the "required" main container node should be a part of the resultant object or not.
+ * @return {Object} The native JavaScript object which is contructed from the given XML data or false if any error occured.
+ */
+function xml2json(source, includeRoot) {
+    if (typeof source == 'string') {
+        try {
+            if (window.DOMParser)
+                source = (new DOMParser()).parseFromString(source, "application/xml");
+            else if (window.ActiveXObject) {
+                var xmlObject = new ActiveXObject("Microsoft.XMLDOM");
+                xmlObject.async = false;
+                xmlObject.loadXML(source);
+                source = xmlObject;
+                xmlObject = undefined;
             }
             else
-                alert("unhandled node type: " + xml.nodeType);
-            return o;
-        },
-        toJson: function (o, name, ind) {
-            var json = name ? ("\"" + name + "\"") : "";
-            if (o instanceof Array) {
-                for (var i = 0, n = o.length; i < n; i++)
-                    o[i] = X.toJson(o[i], "", ind + "\t");
-                json += (name ? ":[" : "[") + (o.length > 1 ? ("\n" + ind + "\t" + o.join(",\n" + ind + "\t") + "\n" + ind) : o.join("")) + "]";
-            }
-            else if (o == null)
-                json += (name && ":") + "null";
-            else if (typeof (o) == "object") {
-                var arr = [];
-                for (var m in o)
-                    arr[arr.length] = X.toJson(o[m], m, ind + "\t");
-                json += (name ? ":{" : "{") + (arr.length > 1 ? ("\n" + ind + "\t" + arr.join(",\n" + ind + "\t") + "\n" + ind) : arr.join("")) + "}";
-            }
-            else if (typeof (o) == "string")
-                json += (name && ":") + "\"" + o.toString() + "\"";
-            else
-                json += (name && ":") + o.toString();
-            return json;
-        },
-        innerXml: function (node) {
-            var s = ""
-            if ("innerHTML" in node)
-                s = node.innerHTML;
-            else {
-                var asXml = function (n) {
-                    var s = "";
-                    if (n.nodeType == 1) {
-                        s += "<" + n.nodeName;
-                        for (var i = 0; i < n.attributes.length; i++)
-                            s += " " + n.attributes[i].nodeName + "=\"" + (n.attributes[i].nodeValue || "").toString() + "\"";
-                        if (n.firstChild) {
-                            s += ">";
-                            for (var c = n.firstChild; c; c = c.nextSibling)
-                                s += asXml(c);
-                            s += "</" + n.nodeName + ">";
-                        }
-                        else
-                            s += "/>";
-                    }
-                    else if (n.nodeType == 3)
-                        s += n.nodeValue;
-                    else if (n.nodeType == 4)
-                        s += "<![CDATA[" + n.nodeValue + "]]>";
-                    return s;
-                };
-                for (var c = node.firstChild; c; c = c.nextSibling)
-                    s += asXml(c);
-            }
-            return s;
-        },
-        escape: function (txt) {
-            return txt.replace(/[\\]/g, "\\\\")
-                      .replace(/[\"]/g, '\\"')
-                      .replace(/[\n]/g, '\\n')
-                      .replace(/[\r]/g, '\\r');
-        },
-        removeWhite: function (e) {
-            e.normalize();
-            for (var n = e.firstChild; n;) {
-                if (n.nodeType == 3) {  // text node
-                    if (!n.nodeValue.match(/[^ \f\n\r\t\v]/)) { // pure whitespace text node
-                        var nxt = n.nextSibling;
-                        e.removeChild(n);
-                        n = nxt;
-                    }
-                    else
-                        n = n.nextSibling;
-                }
-                else if (n.nodeType == 1) {  // element node
-                    X.removeWhite(n);
-                    n = n.nextSibling;
-                }
-                else                      // any other node
-                    n = n.nextSibling;
-            }
-            return e;
+                throw new Error("Cannot find an XML parser!");
         }
-    };
-    if (xml.nodeType == 9) // document node
-        xml = xml.documentElement;
-    var json = X.toJson(X.toObj(X.removeWhite(xml)), xml.nodeName, "\t");
-    return "{\n" + tab + (tab ? json.replace(/\t/g, tab) : json.replace(/\t|\n/g, "")) + "\n}";
+        catch (error) {
+            return false;
+        }
+    }
+
+    var result = {};
+
+    if (source.nodeType == 9)
+        source = source.firstChild;
+    if (!includeRoot)
+        source = source.firstChild;
+
+    while (source) {
+        if (source.childNodes.length) {
+            if (source.tagName in result) {
+                if (result[source.tagName].constructor != Array)
+                    result[source.tagName] = [result[source.tagName]];
+                result[source.tagName].push(xml2json(source));
+            }
+            else
+                result[source.tagName] = xml2json(source);
+        } else if (source.tagName)
+            result[source.tagName] = source.nodeValue;
+        else if (!source.nextSibling) {
+            if (source.nodeValue.clean() != "") {
+                result = source.nodeValue.clean();
+            }
+        }
+        source = source.nextSibling;
+    }
+    return result;
+};
+
+String.prototype.clean = function () {
+    var self = this;
+    return this.replace(/(\r\n|\n|\r)/gm, "").replace(/^\s+|\s+$/g, "");
 }

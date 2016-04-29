@@ -10,7 +10,7 @@
               articlesService.getArticles()
                   .map(
                       function (response) {
-                          return xml2json(response.text(), "");
+                          return xml2json(response.text(), "").channel.item;
                       })
                   .subscribe(
                       function (result) {
