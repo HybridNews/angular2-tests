@@ -24,7 +24,7 @@ import {Slide} from 'ng2-bootstrap/components/carousel/slide.component';
 					that.baseUrl = channel.link;
 					var items = channel.item;
 					that.articles = items;
-					that.slides = items.slice(0, 4);
+					that.slides = items.slice(0, 5);
 				}
 			);
 		}]
