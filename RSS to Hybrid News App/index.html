@@ -1,37 +1,41 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--traceur-->
-        <!--https://www.npmjs.com/package/traceur--> 
-        <script src="node_modules/traceur/bin/traceur.js"></script>
-        <script src="node_modules/traceur/bin/BrowserSystem.js"></script>
-        <script src="node_modules/traceur/src/bootstrap.js"></script>
+	<!--traceur-->
+	<script src="node_modules/traceur/bin/traceur.js"></script>
+	<script src="node_modules/traceur/bin/BrowserSystem.js"></script>
+	<script src="node_modules/traceur/src/bootstrap.js"></script>
 
-        <!--angular2-->
-        <script src="node_modules/systemjs/dist/system.src.js"></script>
-        <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-        <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
-        <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-        <script src="node_modules/rxjs/bundles/Rx.js"></script>
-        <script src="node_modules/angular2/bundles/angular2.js"></script>
-        <script src="node_modules/angular2/bundles/http.js"></script>
+	<!--angular2-->
+	<script src="node_modules/systemjs/dist/system.src.js"></script>
+	<script src="node_modules/es6-shim/es6-shim.min.js"></script>
+	<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+	<script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+	<script src="node_modules/rxjs/bundles/Rx.js"></script>
+	<script src="node_modules/angular2/bundles/angular2.js"></script>
+	<script src="node_modules/angular2/bundles/http.js"></script>
 
-        <!--bootstrapjs-->
-        <script src="node_modules/ng2-bootstrap/bundles/ng2-bootstrap.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<!--bootstrap js for angular 2-->
+	<script src="node_modules/ng2-bootstrap/bundles/ng2-bootstrap.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!--css-->
+	<link href="app/styles.css" rel="stylesheet" />
+</head>
+<body>
+	<hybrid-news>Loading...</hybrid-news>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script>
+		// configure ES6 modules loader
+		System.config({
+			baseURL: '/',
+			transpiler: 'traceur'
+		});
 
-        <!--hybrid news spa-->
-        <!--TODO: use require.js-->
-        <script type="module" src='app/services/articlesService.js'></script>
-        <script type="module" src='app/services/xmlToJsonService.js'></script>
-        <script type="module" src='app/components/articles-list/articles-list.component.js'></script>
-    	<script type="module" src='app/app.js'></script>
-		<link href="app/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <hybrid-news>Loading...</hybrid-news>
-        <script type="text/javascript" src="cordova.js"></script>
-    </body>
+		// load the SPA
+		System.import('app/app.js');
+	</script>
+</body>
 </html>
