@@ -4,23 +4,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--traceur (converts ES6 to ES5)-->
-	<script src="node_modules/traceur/bin/traceur.js"></script>
+	<script src="libs/traceur/traceur.js"></script>	
 
 	<!--TODO: link libs instead of copy from node modules-->
-	<!--angular2-->
-	<!--provides es6 modules-->
+	<!--es6 modules-->
 	<script src="libs/systemjs/system.js"></script>
+	<!--angular2 observables-->
+	<script src="libs/rxjs/Rx.min.js"></script>
 	<script src="libs/angular2/angular2.js"></script>
 	<script src="libs/angular2/angular2-polyfills.min.js"></script>
-	<!--provides observables-->
-	<script src="libs/rxjs/Rx.min.js"></script>
-	<!--the angular2 https service-->
+	<!--angular2 https service-->
 	<script src="libs/angular2/http.min.js"></script>
 
 	<!--bootstrap js for angular 2-->
 	<script src="libs/ng2-bootstrap/ng2-bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<!--css-->
 	<link href="app/styles.css" rel="stylesheet" />
 </head>
@@ -30,7 +29,6 @@
 	<script>
 		// configure ES6 modules loader
 		System.config({
-			baseURL: '/',
 			transpiler: 'traceur'
 		});
 
@@ -41,6 +39,8 @@
 </html>
 
 
-<!--<script src="node_modules/traceur/bin/BrowserSystem.js"></script>-->
-<!--<script src="node_modules/traceur/src/bootstrap.js"></script>-->	<!--<script src="node_modules/es6-shim/es6-shim.min.js"></script>-->
-<!--<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>-->
+
+<!--<script src="libs/traceur/BrowserSystem.js"></script>
+<script src="libs/traceur/bootstrap.js"></script>
+<script src="libs/es6-shim/es6-shim.js"></script> 
+<script src="libs/angular2/shims_for_IE.js"></script>-->
