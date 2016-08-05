@@ -52,3 +52,6 @@ tsconfig.json
 **/*.bak
 **/*.cache
 **/*.log
+
+# npm modules
+node_modules/**/*

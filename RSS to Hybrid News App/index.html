@@ -3,22 +3,22 @@
 	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--traceur-->
+	<!--traceur (converts ES6 to ES5)-->
 	<script src="node_modules/traceur/bin/traceur.js"></script>
-	<script src="node_modules/traceur/bin/BrowserSystem.js"></script>
-	<script src="node_modules/traceur/src/bootstrap.js"></script>
 
+	<!--TODO: link libs instead of copy from node modules-->
 	<!--angular2-->
-	<script src="node_modules/systemjs/dist/system.src.js"></script>
-	<script src="node_modules/es6-shim/es6-shim.min.js"></script>
-	<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
-	<script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-	<script src="node_modules/rxjs/bundles/Rx.js"></script>
-	<script src="node_modules/angular2/bundles/angular2.js"></script>
-	<script src="node_modules/angular2/bundles/http.js"></script>
+	<!--provides es6 modules-->
+	<script src="libs/systemjs/system.js"></script>
+	<script src="libs/angular2/angular2.js"></script>
+	<script src="libs/angular2/angular2-polyfills.min.js"></script>
+	<!--provides observables-->
+	<script src="libs/rxjs/Rx.min.js"></script>
+	<!--the angular2 https service-->
+	<script src="libs/angular2/http.min.js"></script>
 
 	<!--bootstrap js for angular 2-->
-	<script src="node_modules/ng2-bootstrap/bundles/ng2-bootstrap.js"></script>
+	<script src="libs/ng2-bootstrap/ng2-bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	
 	<!--css-->
@@ -39,3 +39,8 @@
 	</script>
 </body>
 </html>
+
+
+<!--<script src="node_modules/traceur/bin/BrowserSystem.js"></script>-->
+<!--<script src="node_modules/traceur/src/bootstrap.js"></script>-->	<!--<script src="node_modules/es6-shim/es6-shim.min.js"></script>-->
+<!--<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>-->

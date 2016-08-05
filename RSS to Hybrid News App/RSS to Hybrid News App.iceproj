@@ -36,6 +36,19 @@
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
     <Content Include="index.html" />
+    <Content Include="libs\angular2\angular2-polyfills.min.js" />
+    <Content Include="libs\angular2\angular2.js" />
+    <Content Include="libs\angular2\http.min.js" />
+    <Content Include="libs\angular2\LICENSE" />
+    <Content Include="libs\ng2-bootstrap\LICENSE" />
+    <Content Include="libs\ng2-bootstrap\ng2-bootstrap.min.js" />
+    <Content Include="libs\rxjs\LICENSE.txt" />
+    <Content Include="libs\rxjs\Rx.min.js" />
+    <Content Include="libs\systemjs\system.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="libs\traceur\LICENSE" />
+    <Content Include="libs\traceur\traceur.js" />
     <Content Include="node_modules\angular2\animate.js">
       <SubType>Content</SubType>
     </Content>
@@ -11020,6 +11033,11 @@
     <Folder Include="App_Resources\WP8\Tiles\" />
     <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
     <Folder Include="libs\" />
+    <Folder Include="libs\angular2\" />
+    <Folder Include="libs\traceur\" />
+    <Folder Include="libs\systemjs\" />
+    <Folder Include="libs\rxjs\" />
+    <Folder Include="libs\ng2-bootstrap\" />
     <Folder Include="node_modules\" />
     <Folder Include="node_modules\angular2\" />
     <Folder Include="node_modules\angular2\animate\" />
